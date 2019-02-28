@@ -2,9 +2,9 @@ import React from 'react';
 import { func } from 'prop-types';
 import { DropdownItem } from 'reactstrap';
 
-import { LOGOUT } from '../../locale/consts';
+import { LOGOUT } from 'locale/consts';
 
-import Translate from '../Translate';
+import Translate from 'containers/Translate';
 
 const Logout = ({ logout }) => (
 	<DropdownItem onClick={logout}>

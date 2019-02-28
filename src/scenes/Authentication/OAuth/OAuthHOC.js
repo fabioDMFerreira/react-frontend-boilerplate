@@ -3,7 +3,7 @@ import { func } from 'prop-types';
 import { connect } from 'react-redux';
 
 import { setToken } from 'store/authentication';
-import Socket from 'Socket';
+import Socket from 'services/Socket';
 
 import './OAuth.css';
 

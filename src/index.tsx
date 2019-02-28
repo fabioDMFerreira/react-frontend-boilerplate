@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import registerServiceWorker from './registerServiceWorker';
 
 import store from './store';
-import App from './components';
+import App from './App';
 
 ReactDOM.render(
 	<Provider store={store}>

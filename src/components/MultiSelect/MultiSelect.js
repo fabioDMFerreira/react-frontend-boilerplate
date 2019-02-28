@@ -6,7 +6,7 @@ import Select from 'react-select';
 import { SELECT_OPTION } from 'locale/consts';
 import { selectItemsList } from 'propTypes';
 
-import Translate from '../Translate';
+import Translate from 'containers/Translate';
 
 const MultiSelect = ({
 	label, value, options, onChange,

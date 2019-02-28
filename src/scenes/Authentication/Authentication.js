@@ -3,10 +3,9 @@ import { bool } from 'prop-types';
 import Cookies from 'js-cookie';
 
 import { LOGIN } from 'locale/consts';
-import Translate from 'components/Translate';
+import Translate from 'containers/Translate';
 
-import LoginForm from 'components/LoginForm';
-import Logout from 'components/Logout';
+import LoginForm from 'containers/LoginForm';
 
 import './Authentication.css';
 
@@ -29,7 +28,7 @@ const Authentication = ({ isLoggedIn }) =>{
 									</React.Fragment>);
 							}
 
-							return <div>ALREADY_AUTHENTICATED <Logout /></div>;
+							return;
 						}
 					)()
 				}

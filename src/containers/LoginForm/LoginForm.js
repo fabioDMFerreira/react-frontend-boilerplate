@@ -2,10 +2,9 @@ import React from 'react';
 import { Field, reduxForm, Form } from 'redux-form';
 import { func, string, bool } from 'prop-types';
 
-import InputAndValidationMessages from 'components/Input/InputAndValidationMessages';
-import Translate from 'components/Translate';
+import InputAndValidationMessages from 'containers/Input/InputAndValidationMessages';
+import Translate from 'containers/Translate';
 import { EMAIL, PASSWORD } from 'locale/consts';
-
 
 import validate from './validateLoginForm';
 

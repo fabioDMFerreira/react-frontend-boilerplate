@@ -2,7 +2,7 @@ import React from 'react';
 import { string, object } from 'prop-types';
 import { withLocalize } from 'react-localize-redux';
 import { generateKey } from 'services/utils';
-import Translate from 'components/Translate';
+import Translate from 'containers/Translate';
 
 const InputAndValidationMessages = ({
 	input,
